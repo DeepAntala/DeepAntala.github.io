@@ -8,6 +8,7 @@
 	background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url(../first.jpg);
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 #main{
