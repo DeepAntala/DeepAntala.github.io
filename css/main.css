@@ -14,11 +14,8 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 100vh;
-	
 }
 
-.main{	
-}
 
 .main h1{
 	animation: drop 3s ease-in-out;
@@ -166,22 +163,40 @@
 
 .intro {
 	
-  	height: 50vh;
+  	height: 40vh;
   	display: flex;
   	justify-content: flex-start;
   	align-items: center;
-  	max-width: 100%;
+  	max-width: 90%;
   	position: relative;
   	z-index: 10;
 }
 
-.intro .text-container{
-	font-family: "Nunito", sans-serif;
+.text-container{
+	font-family:  "Source Sans Pro", sans-serif;
 	display: flex;/*
   	justify-content: center;
   	align-items: center;*/
   	font-size: 1.5em;
   	flex-direction: column;
-  	padding-left:2rem;
+  	padding-left:4rem;
   	transition: all 0.225s ease;
+  	/*position: relative;*/
+
+}
+
+.title-container{
+
+	font-family: "Source Code Pro", "Source Sans Pro", sans-serif;
+	margin-top: 50px;
+	height: 30%;
+	margin-left: 50px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	font-weight: 900;
+	opacity: 0.8;
+	font-size: 15px;
+	/*width: 30%*/
 }
