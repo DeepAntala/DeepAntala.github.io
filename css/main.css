@@ -161,6 +161,31 @@
 	transform: translateY(5px);
 }
 
+
+@keyframes banover{
+	100%{
+		letter-spacing: 0.325em;
+	}
+
+	60%{
+		letter-spacing: 0.225em;
+	}
+
+	30%{
+		letter-spacing: 0.125em;
+	}
+	
+	0%{
+		letter-spacing: 0em;
+	}
+}
+
+.selected{
+	transition-delay: all 2s;
+	transition: 2s ease-in-out;
+	opacity: 0.8;
+}
+
 .intro {
 	
   	height: 45vh;
