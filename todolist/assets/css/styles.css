@@ -23,8 +23,9 @@ input{
 }
 
 span{
-	margin-left: 0;
-	margin-right: 20px;
+	float: right;
+	/*margin-left: 20px;*/
+	/*margin-right: 20px;*/
 	background:rgb(237, 71, 45);
 	color:white;
 	display: inline-block;
@@ -32,9 +33,10 @@ span{
 	text-align: center;
 	height: 40px;
 	/*transition: 2s linear;*/
-	opacity: 0
-}
+	opacity: 0;
+	/*align-items: right;*/
 
+}
 
 
 li:hover span{	
@@ -49,6 +51,7 @@ li:hover span{
 	padding-right: 4px;
 }
 
+
 h1{
 	background: rgb(41, 128, 185);
 	margin: 0;
@@ -60,16 +63,18 @@ h1{
 }
 
 li{
+
 	height: 40px;
 	line-height: 40px;
 	/*padding-left: 13px;*/
-	padding-right: 20px;
+	/*padding-right: 20px;*/
 }
 
 ul{
+
 	list-style: none;
-	margin: 0;
-	padding: 0 ;
+	margin:0;
+	padding-left: 15px;
 }
 
 li:nth-child(2n){
