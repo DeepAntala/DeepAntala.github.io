@@ -1,10 +1,7 @@
-
-
 $("ul").on("click", "li", function(){
 	$(this).toggleClass("checkout");
 			
 })	
-
 
 
 $("ul").on("click", "span", function(event){
