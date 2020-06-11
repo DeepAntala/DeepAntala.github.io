@@ -68,7 +68,7 @@ html {
 	100%{
 		opacity: 1;
 		transform: translateY(0px);
-		transition-delay: 
+		
 	}
 }
 
@@ -130,6 +130,11 @@ html {
 	right: 10px;
 	position: relative;
   	animation: droplm 3s ease-in-out;
+
+}
+
+a:visited{
+	color: black;
 }
 
 .fa-facebook-f{
