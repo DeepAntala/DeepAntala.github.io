@@ -14,7 +14,7 @@ html {
 
 .main{
 	font-family:Century Gothic;
-	background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url(../first.jpg);
+	background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url(../second.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
