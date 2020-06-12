@@ -130,17 +130,22 @@ html {
 	right: 10px;
 	position: relative;
   	animation: droplm 3s ease-in-out;
+  	
+}
 
+a{
+	color: black;
 }
 
 a:visited{
-	color: black;
+	text-decoration: none;
 	
 }
 
 .fa-facebook-f{
 	padding-bottom: 20px;
 }
+
 .fab{
   font-size:3em;
   margin: 20px;
