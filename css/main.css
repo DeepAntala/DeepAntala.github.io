@@ -149,11 +149,13 @@ a:visited{
 .fab{
   font-size:3em;
   margin: 20px;
+  color: black;
 }
 
 .far{
 	font-size: 3em;
 	margin: 20px;
+	color: black;
 }
 
 span:hover {
