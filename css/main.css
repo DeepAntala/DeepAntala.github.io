@@ -234,6 +234,7 @@ footer{
 	height: 40vh;
 	box-sizing: border-box;
 	background: #365166;
+	z-index: 1;
 }
 
 
