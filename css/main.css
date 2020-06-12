@@ -1,5 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
 
 *{
@@ -13,8 +13,12 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+
+	font-family: "Source Sans Pro", sans-serif;
+}
+
 .main{
-	font-family: "Source Sans Pro", Century Gothic;
 	background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url(../second.jpg);
 	background-size: cover;
 	background-position: center;
