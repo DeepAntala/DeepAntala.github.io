@@ -127,7 +127,7 @@ html {
 .contact{
 	z-index: 1;
 	top: 200px;
-	right: 10px;
+	right: 5px;
 	position: relative;
   	animation: droplm 3s ease-in-out;
   	
