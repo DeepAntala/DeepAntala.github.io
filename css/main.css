@@ -240,52 +240,45 @@ span:hover {
   	transition: all 0.225s ease;
   	/*position: relative;*/
 
-}
+} 
 
 footer{
 	height: 40vh;
 	box-sizing: border-box;
 	background: #365166;
 	z-index: 1;
+	position: relative;
+	justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
 .ftext{
 	font-family: "Source Sans Pro", sans-serif;
 	/*height: 20vh;*/
-	padding-top: 100px;
-	text-align: center;
-	display: flex;
-	top: 130px;
-	position: relative;
-	justify-content: center;
-    align-items: center;
+	padding-top: 16rem;
+	/*top: 130px;*/
     color: white;
 }
 
 .fa-heart{
 	font-size: 3vh;
-	text-align: center;
-	display: flex;
 	color: red;
-	left: 82vh;
+	/*left: 82vh;*/
+	position: relative;
 	font-weight: 900;
 	z-index:1;
-	position: relative;
-	justify-content: center;
-    align-items: center;
-    top: 16vh;
+    /*top: 16vh;*/
 }
 
 .fa-hand-peace{
 	font-size: 3vh;
-	text-align: center;
-	display: flex;
 	color: green;
-	left: 84vh;
-	z-index:1;
 	position: relative;
-    top: 16vh;
+	/*left: 84vh;*/
+	z-index:1;
+    /*top: 16vh;*/
 }
 
 
