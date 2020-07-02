@@ -8,6 +8,8 @@ $(document).ready(function(){
 
 
 
+
+
 $(document).ready(function(){
 			$(".fa-envelope").on("mouseover", function(){
 				$(".fa-envelope").css({
