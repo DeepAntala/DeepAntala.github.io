@@ -282,7 +282,7 @@ footer p{
 .fa-hand-peace{
 	font-size: 3vh;
 	color: green;
-	position: relative;
+	position: relative;	
 	z-index:1;
     /*top: 16vh;*/
 }
