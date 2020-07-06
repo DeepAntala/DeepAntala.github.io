@@ -7,9 +7,9 @@ $(document).ready(function(){
 		)})	
 
 
-function mobileConditions() {
-	return !($(window).width() > 900 && $(window).height() < $(window).width());
-}
+// function mobileConditions() {
+// 	return !($(window).width() > 900 && $(window).height() < $(window).width());
+// }
 
 
 $(document).ready(function(){
