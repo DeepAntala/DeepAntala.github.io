@@ -29,14 +29,14 @@ body{
 	background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url(../second.jpg);
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
 	height: 100vh;
 	text-align: center;
     position: relative;
-    z-index: 1;
+    z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
 }
 
 
@@ -257,6 +257,8 @@ a:visited{
 
 
 @media (max-width: 900px) {
+	.main{
+	}
 	.contact{
 		top: 9em;
 	}
