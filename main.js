@@ -1,15 +1,10 @@
 
 $(document).ready(function(){
 			$(window).on("scroll", (function(){
-					$(".main").css("opacity", 1-$(this).scrollTop()/700)
-					$("#banner").css("opacity", 1-$(this).scrollTop()/700)
+					$(".main").css("opacity", 1-$(this).scrollTop()/340)
+					$("#banner").css("opacity", 1-$(this).scrollTop()/340)
 				})
-		)})	
-
-
-// function mobileConditions() {
-// 	return !($(window).width() > 900 && $(window).height() < $(window).width());
-// }
+		)})
 
 
 $(document).ready(function(){
@@ -46,7 +41,6 @@ $(document).ready(function(){
 					});
 				})
 			$(".fa-linkedin-in").on("mouseout", function(){
-					// $(".main").css("opacity", "1")
 					$(".fa-linkedin-in").css({
 						"color": "black",
 						"font-weight": "normal"
