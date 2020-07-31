@@ -29,6 +29,7 @@ body{
 	background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url(../second.jpg);
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
 	height: 100vh;
 	text-align: center;
     position: relative;
