@@ -106,21 +106,21 @@ html, body {
 }
 
 .text-container>h1{
-	animation:scyshow 1s ease-in-out, show 1s ease-in-out,opshow 1s ease-in-out;
+	animation:scyshow 2s ease-in-out, show 2s ease-in-out,opshow 2s ease-in-out;
 	font-size: 2.4em;
 	line-height: 2em;
 	z-index: 100;
 }
 
 .text-container>h2{
-	animation:scxshow 1s ease-in-out, opshow 1s ease-in-out;
+	animation:scxshow 2s ease-in-out, opshow 2s ease-in-out;
 	font-size: 1.2em;
 	font-weight: 600;
 	z-index: 100;
 }
 
 .btn{
-	animation: btnshow 1s ease-in-out;
+	animation: btnshow 2s ease-in-out;
 	position: absolute;
 	bottom: 2em;
 	left: 0;
