@@ -1,28 +1,28 @@
 
 
-window.onload= function() {
-	Particles.init({
-		selector: '.background',
-		connectParticles: true,
-		speed:0.8,
-		maxParticles:120,
-		sizeVariations:10,
-		color:["#36d1dc","#cb356b","#283c86","#36d1dc","#40e0d0"],
-		responsive: [
-    {
-      breakpoint: 768,
-      options: {
-        maxParticles: 80,
-        color:["#36d1dc","#cb356b","#283c86","#36d1dc","#40e0d0"],
-        connectParticles: true}},
-         {
-      breakpoint: 425,
-      options: {
-        maxParticles: 50,
-        connectParticles: true}}
-        ]
-    });
-};
+// window.onload= function() {
+// 	Particles.init({
+// 		selector: '.background',
+// 		connectParticles: true,
+// 		speed:0.8,
+// 		maxParticles:120,
+// 		sizeVariations:10,
+// 		color:["#36d1dc","#cb356b","#283c86","#36d1dc","#40e0d0"],
+// 		responsive: [
+//     {
+//       breakpoint: 768,
+//       options: {
+//         maxParticles: 80,
+//         color:["#36d1dc","#cb356b","#283c86","#36d1dc","#40e0d0"],
+//         connectParticles: true}},
+//          {
+//       breakpoint: 425,
+//       options: {
+//         maxParticles: 50,
+//         connectParticles: true}}
+//         ]
+//     });
+// };
 
 $(document).ready(function(){
 			$(".fa-envelope").hover( function(){
