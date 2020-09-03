@@ -1,63 +1,77 @@
 
-$(document).ready(function(){
-			$(window).on("scroll", (function(){
-					$(".main").css("opacity", 1-$(this).scrollTop()/340)
-					$("#banner").css("opacity", 1-$(this).scrollTop()/340)
-				})
-		)})
 
+window.onload= function() {
+	Particles.init({
+		selector: '.background',
+		connectParticles: true,
+		speed:0.8,
+		maxParticles:120,
+		sizeVariations:10,
+		color:["#36d1dc","#cb356b","#283c86","#36d1dc","#40e0d0"],
+		responsive: [
+    {
+      breakpoint: 768,
+      options: {
+        maxParticles: 80,
+        color:["#36d1dc","#cb356b","#283c86","#36d1dc","#40e0d0"],
+        connectParticles: true}},
+         {
+      breakpoint: 425,
+      options: {
+        maxParticles: 50,
+        connectParticles: true}}
+        ]
+    });
+};
 
 $(document).ready(function(){
-			$(".fa-envelope").on("mouseover", function(){
+			$(".fa-envelope").hover( function(){
 				$(".fa-envelope").css({
 					"color": "green",
 					"font-weight": "900"
 					});
-				})
-			$(".fa-envelope").on("mouseout", function(){
+				}, function(){
 					$(".fa-envelope").css({
 						"color": "black",
 						"font-weight": "normal"
 					});
 
 				})
-			$(".fa-facebook-f").on("mouseover", function(){
+			$(".fa-facebook-f").hover(function(){
 				$(".fa-facebook-f").css({
 					"color": "#3b5998",
 					"font-weight": "900"
 					});
-				})
-			$(".fa-facebook-f").on("mouseout", function(){
+				}, function(){
 					$(".fa-facebook-f").css({
 						"color": "black",
 						"font-weight": "normal"
 					});
 
 				})
-			$(".fa-linkedin-in").on("mouseover", function(){
+			$(".fa-linkedin-in").hover(function(){
 				$(".fa-linkedin-in").css({
 					"color": "#0077b5",
 					"font-weight": "900"
 					});
-				})
-			$(".fa-linkedin-in").on("mouseout", function(){
+				}, function(){
 					$(".fa-linkedin-in").css({
 						"color": "black",
 						"font-weight": "normal"
 					});
 
 				})
-			$(".fa-github").on("mouseover", function(){
+			$(".fa-github").hover(function(){
 				$(".fa-github").css({
 					"color": "#6e5494",
 					"font-weight": "900"
 					});
-				})
-			$(".fa-github").on("mouseout", function(){
+				}, function(){
 					$(".fa-github").css({
 						"color": "black",
 						"font-weight": "normal"
 					});
 
 				})
+
 		})
