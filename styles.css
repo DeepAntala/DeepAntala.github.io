@@ -230,11 +230,11 @@ a{
 }
 
 #todo{
-    background-image: url("image_todo.png");
+    background-image: url("./images/image_todo.png");
 }
 
 #blog{
-	background-image: url("image_blog.png");
+	background-image: url("./images/image_blog.png");
 }
 
 #project-three img{
@@ -315,7 +315,6 @@ a{
 
 .quote{
 	position: relative;
-    /*margin: auto 2em;*/
     font-size: 4em;
     font-weight: 900;
     text-align: center;
@@ -439,11 +438,11 @@ span:hover {
 		margin-right: auto;
 	}
 	#project-three img{
-	display: block;
-    position: relative;
-    height: 40%;
-    margin: auto;
-    top: 20%;
+		display: block;
+	    position: relative;
+	    height: 40%;
+	    margin: auto;
+	    top: 20%;
 }
 
 }
