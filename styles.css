@@ -167,7 +167,7 @@ a{
 	background-color: #eb4034;
 }
 
-.page-two{
+/* .page-two{
 	position: relative;
 	background-color: #f6f6f6;
 	margin: 0 7em 7em 7em;
@@ -203,7 +203,6 @@ a{
     margin-top: 50px;
     text-align: left;
     align-items: center;		
-    /*margin: auto;*/	
     border-radius: 10px;
     -webkit-box-shadow: 0px 1px 20px 1px rgba(0,0,0,0.34);
 	-moz-box-shadow: 0px 1px 20px 1px rgba(0,0,0,0.34);
@@ -248,17 +247,11 @@ a{
 
 #proj-one{
 	z-index: 10;
-	background: #283c86;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #283c86;
+	background: -webkit-linear-gradient(to right, #45a247, #283c86);
+	background: linear-gradient(to right, #45a247, #283c86);
 }
 
-#fms, #proj-three, #proj-four{	
-	z-index: 10;
-	background: #43C6AC;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
 #proj-one img{
 	display: block;
@@ -285,7 +278,15 @@ a{
 }
 .text-content{
 	padding-top: 1em;
+} */
+
+ #fms /*, #proj-three, #proj-four  */ {	
+	z-index: 10;
+	background: #43C6AC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 
 .page-three{
 	position: relative;
