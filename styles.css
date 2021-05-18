@@ -167,7 +167,7 @@ a{
 	background-color: #eb4034;
 }
 
-/* .page-two{
+.page-two{
 	position: relative;
 	background-color: #f6f6f6;
 	margin: 0 7em 7em 7em;
@@ -278,9 +278,9 @@ a{
 }
 .text-content{
 	padding-top: 1em;
-} */
+}
 
- #fms /*, #proj-three, #proj-four  */ {	
+ #fms , #proj-three, #proj-four {	
 	z-index: 10;
 	background: #43C6AC;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
